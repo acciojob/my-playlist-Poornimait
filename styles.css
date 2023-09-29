@@ -2,9 +2,25 @@ h1,h2,h3{
 	text-align:center;
 }
 #body{
+	width:80%;
+	height:80%;
 	margin:30px;
 	background-color: rgb(204, 204, 204);
+	padding:20px;
 }
 #playlist{
-	
+	margin:20px;
+	border:3px solid black;
+	border-radius:3px;
+	background-color:white;
+}
+#playlist>ul{
+	list-style-type: none;
+}
+#vedio_audio{
+	padding:20px;
+	margin:40px;
+	border:3px solid black;
+	border-radius:3px;
+	background-color:white;
 }
